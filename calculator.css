@@ -1,0 +1,55 @@
+body{
+    background-color: brown;
+}
+td{
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-style: double;
+    text-align: center;
+    size: 500px;
+    font-size: larger;
+    font-weight: bolder;
+    color:white;
+    background-color: black;
+    border-radius: 10em;
+    height: 50px;
+}
+textarea{
+    border-style: dotted;
+    width:200px;
+    text-align: center;
+    border-radius: 5em;
+    margin-top: 20px;
+}
+/*.wrapper{
+    border-style: groove ;
+    background-color: grey;
+    box-sizing: content-box;
+}*/
+table{10px;}
+.wrapper {
+    background: rgb(54, 34, 34);
+    height: 400px;
+    width: 250px;
+    position:absolute;
+    transform: translate(120%, 50%);
+    border-radius: 25px;
+}
+.keypad{
+    margin-top: 40px;
+    margin-left: .25em;
+    margin-right: .25em;
+}
+.screen{background-color: lightgreen;
+margin-left: 12px;: ;
+}
+@media screen and (max-width: 900px) and (min-width: 600px) {
+     .keypad{
+    
+    }
+    text-area{
+      
+    }
+  }

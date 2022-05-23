@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotact Page</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="row1">
+            <h1>CONTACT PAGE</h1>
+            <p>Please leave a message.</p>
+            <nav>
+                <a href="AboutMe.html">Home</a> |
+                <a href="contact.html">Contacts</a> |
+                <a href="register.html"> Register</a> |
+                <a href="calculator.html">Table Calculator</a> |
+                <a href="boxcalculator.html">Box Calculator</a> |
+                <a href="login.html">Login</a>
+            </nav>
+        </div>
+        <div class="row2">
+            <div class="pixbox">
+                <img src="profilepix.jpg" alt="My Picture" class="ppix">
+            </div>
+            <div class="formbox">
+                <form>
+                    <label for="Name" class="iheader">Name</label>
+                    <br>
+                    <input type="text" id="Name" placeholder="Your Name">
+                    <br><br>
+                    <label for="email" class="iheader">Email</label>
+                    <br>
+                    <input type="text" id="email" placeholder="Your email">
+                    <br><br>
+                    <label for="msg" class="iheader">Message</label>
+                    <br>
+                    <textarea name="msg" id="msg" cols="30" rows="10">Enter Message</textarea>
+                    <br><br>
+                    <label for="priority" class="iheader">Priority</label>
+                    <br>
+                    <select name="reason" id="list" aria-placeholder="">
+                        <option value="frontend">Frontend projects</option>
+                        <option value="backend">Backend projects</option>
+                        <option value="fullsatck">Fullstack projects</option>
+                        <option value="Data analysis ">Data Analysis</option>
+                        <option value="Campaigns">Digital Campaign</option>
+                    </select><br><br>
+                    <button type="submit" class="iheader">Submit</button>
+                </form>
+                <marquee behavior="alternate" direction="left">Thank You!!!</marquee>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

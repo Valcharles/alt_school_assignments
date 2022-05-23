@@ -1,0 +1,101 @@
+.container{
+    display:grid;
+    grid-template-rows: 20% 70% 10%;
+    min-width: auto;
+    max-width: 1400px;
+    row-gap: 1%;
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+    border-radius: 20px;
+    
+}
+.namebox{
+    background-color: rgb(193, 193, 219);
+    width: 100%;
+    display: grid;
+    grid-template-columns:25% 50% 25%;
+    border-style: groove;
+    border-radius: 20px;
+}
+.contentbox{
+    display: grid;
+    grid-template-columns: 22% 55% 23%;
+    height: fit-content;
+    grid-column-gap: 0.1em;
+    max-width:100%
+    position:relative;
+}
+.header{
+    background-color: rgb(193, 193, 219);
+    text-align: center;
+    height: 50%;
+    margin-top: 1em;
+    display: inline;
+    font-size: small;
+}
+.ppix{
+    width: 120px;
+    border-radius: 50%;
+    filter: grayscale(0%);
+    image-rendering:crisp-edges 
+    left:
+}
+#position{
+    text-align: center;
+    font-weight: bold;
+}
+h2{
+    color: ;
+    background-color: rgb(135, 135, 182);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.conlist{
+    list-style-type:circle
+}
+.cbox1{
+    border-style: groove;
+    text-align: justify;
+    background-color: rgb(193, 193, 219);
+    border-radius: 20px;
+    box-shadow: inset;
+}
+.cbox2{
+    border-style: groove;
+    text-align: justify;
+    background-color: rgb(193, 193, 219);
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+}
+.nametag{
+    text-align: center;
+    text-shadow: 20px;
+}
+.formbox{
+    border-style:groove;
+   max-width:100%;
+   background-color: rgb(193, 193, 219);
+   border-radius: 20px;
+}
+.footer{
+    background-color:  rgb(193, 193, 219);
+    height:auto;
+    font-weight: bolder;
+    text-shadow: 2px 2px 1opx rgb(228, 228, 236);
+}
+#github{width: 50px;}
+#replit{width: 50px;}
+#linkedin{width: 50px;}
+#twitter{width: 30px;}
+.conlist{
+    list-style-type: square;
+}
+.iheader{
+    font-weight: bold;
+}
+.portlist{list-style-type: none;}
+h1{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+

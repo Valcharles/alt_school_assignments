@@ -1,0 +1,58 @@
+body{
+    background-color: gainsboro;
+}
+.container {
+    background: rgb(54, 34, 34);
+    height: 400px;
+    width: 250px;
+    position:absolute;
+    transform: translate(120%, 50%);
+    border-radius: 25px;
+    box-shadow: 
+    }
+    .keypad {
+    background:;;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    display: grid;
+    width:90% ;
+    margin-top: 70px;
+    height: 80%;
+    grid-template-rows: 15% 15% 15% 15% 15%;
+    row-gap: 1em;
+    }
+    .screen{
+        background-color: rgb(110, 131, 110);
+        border: 10px;
+        height: 30px;
+        width: 86%;
+        margin-top: 20px;
+        margin-left: 8%;
+        border-radius: 25px;
+    
+    }
+    button{border-radius: 100%;
+        height: 50%;
+        width: 25%;
+        background-color: lightcoral;
+        border-color: blanchedalmond;
+    }
+    p{
+        color: whitesmoke;
+        border-style:;
+        height: 10px;
+        font-size: smaller;
+    }
+    .navbar{
+        background-color:rgb(184, 155, 155);
+        text-align: center;
+        color: black;
+    }
+    a:hover{
+        color: red;
+    }
+    a:after{
+        color:purple;
+    }
